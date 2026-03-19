@@ -253,9 +253,9 @@ names=['CPA100','CPA090-080','Agua']
 for i,e in enumerate(zip(figs,names)):
     e[0].savefig(f'1_{e[1]}.png',dpi=300)
 
-figsTF=[figTF0,figTF1,figTF1]
+figsTF=[figTF0,figTF1,figTF2]
 namesTF=['agua_TF0','agua_TF1','agua_TF2']
-for i,e in enumerate(zip(figs,names)):
+for i,e in enumerate(zip(figsTF,namesTF)):
     e[0].savefig(f'1_{e[1]}.png',dpi=300)
 
 
@@ -397,3 +397,5 @@ plt.suptitle('4 Sumergida - 1 mL - 100% CPA',fontsize=16)
 plt.savefig('4_1mL_sumergida.png',dpi=300)
 plt.show()
 
+
+# %%
